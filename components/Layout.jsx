@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from './Navbar.jsx';
+import NavigationBar from './NavigationBar';
 import Footer from './Footer';
 
 const Layout = ({ children }) => {
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <title>Magazin Online</title>
       </Head>
       <header>
-        <Navbar />
+        <NavigationBar />
       </header>
       <main className="main-container">
         {children}
